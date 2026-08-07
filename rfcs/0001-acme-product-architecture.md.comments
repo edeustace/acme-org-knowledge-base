@@ -1,0 +1,33 @@
+# rfcs/0001-acme-product-architecture.md.comments
+# Schema: docs/comment-format.md in the piqay repo. Rendered by Lens.
+
+[[comments]]
+id = "a1b2c3d4"
+line = 41
+hash = "2ac82112876910f2"
+context = ["## Decisions"]
+author = "mei"
+created = 2026-08-07T10:15:00Z
+status = "open"
+text = """
+Do we need to say how workers get deployed, or is "same repo, same container,
+different entrypoint" enough for the first cut? Decision 1 suggests we deliberately
+don't want a separate worker fleet.
+"""
+[[comments.replies]]
+author = "ede"
+created = 2026-08-07T11:00:00Z
+text = "Good catch — same container, `--role=worker` entrypoint. I'll add a line to the Architecture section."
+
+[[comments]]
+id = "e5f6a7b8"
+line = 17
+hash = "f00dbabefacebabe"
+context = ["## Goals"]
+author = "jordan"
+created = 2026-08-05T16:20:00Z
+status = "stale"
+text = """
+Is Postgres a hard requirement or a default? The data team has been eyeing DuckDB
+for analytics reads — worth a separate RFC?
+"""
