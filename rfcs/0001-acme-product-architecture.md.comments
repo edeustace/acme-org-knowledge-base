@@ -1,34 +1,72 @@
-# rfcs/0001-acme-product-architecture.md.comments
-# Schema: docs/comment-format.md in the piqay repo. Rendered by Lens.
-
 [[comments]]
 id = "a1b2c3d4"
 line = 51
 hash = "2ac82112876910f2"
-context = ["## Decisions"]
+context = [ "## Decisions" ]
 author = "mei"
-created = 2026-08-07T10:15:00Z
+created = 2026-08-07T10:15:00.000Z
 status = "open"
-text = """
-Do we need to say how workers get deployed, or is "same repo, same container,
-different entrypoint" enough for the first cut? Decision 1 suggests we deliberately
-don't want a separate worker fleet.
-"""
+text = "Do we need to say how workers get deployed, or is \"same repo, same container,\ndifferent entrypoint\" enough for the first cut? Decision 1 suggests we deliberately\ndon't want a separate worker fleet.\n"
 
 [[comments.replies]]
 author = "ede"
-created = 2026-08-07T11:00:00Z
+created = 2026-08-07T11:00:00.000Z
 text = "Good catch — same container, `--role=worker` entrypoint. I'll add a line to the Architecture section."
 
 [[comments]]
 id = "e5f6a7b8"
 line = 27
 hash = "f00dbabefacebabe"
-context = ["## Goals"]
+context = [ "## Goals" ]
 author = "jordan"
-created = 2026-08-05T16:20:00Z
+created = 2026-08-05T16:20:00.000Z
 status = "stale"
-text = """
-Is Postgres a hard requirement or a default? The data team has been eyeing DuckDB
-for analytics reads — worth a separate RFC?
-"""
+text = "Is Postgres a hard requirement or a default? The data team has been eyeing DuckDB\nfor analytics reads — worth a separate RFC?\n"
+
+[[comments]]
+id = "7fc2a01e-ae56-4344-862a-d53f4aca926c"
+line = 4
+hash = "bfd35381717233e2"
+context = [ "type: RFC", "title: Acme Product architecture" ]
+author = "Dev User"
+created = "2026-08-07T19:14:57.358Z"
+status = "open"
+text = "tdrtd"
+selection_start_line = 4
+selection_start_col = 73
+selection_end_line = 4
+selection_end_col = 80
+selection_text = "Postgres"
+selection_hash = "44368adad746bc27"
+
+[[comments]]
+id = "771a8463-240d-4884-b815-001152ab0c9a"
+line = 46
+hash = "f39307f131fe106c"
+context = [ "```" ]
+author = "Dev User"
+created = "2026-08-07T19:15:52.365Z"
+status = "open"
+text = "foo"
+selection_start_line = 46
+selection_start_col = 34
+selection_end_line = 46
+selection_end_col = 40
+selection_text = "Workers"
+selection_hash = "7a1ec9fe6c3b483f"
+
+[[comments]]
+id = "d59e42be-d669-46a7-b657-406e17ec85e5"
+line = 27
+hash = "b35692a5ce185350"
+context = [ "## Goals" ]
+author = "Dev User"
+created = "2026-08-07T19:16:11.996Z"
+status = "open"
+text = "bar"
+selection_start_line = 27
+selection_start_col = 31
+selection_end_line = 27
+selection_end_col = 36
+selection_text = "backed"
+selection_hash = "5465364216501b2d"
