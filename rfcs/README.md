@@ -1,3 +1,11 @@
+---
+type: RFC Index
+title: RFCs
+description: Index of RFCs — propose, review, accept, ship.
+status: stable
+tags: [rfcs, process]
+---
+
 # RFCs
 
 RFCs are where the org agrees on meaningful decisions *before* the code lands. They

@@ -1,3 +1,11 @@
+---
+type: Reference
+title: Acme Org — who we are
+description: Org overview, teams, and ways of working for Acme Product.
+status: stable
+tags: [org, handbook]
+---
+
 # Acme Org — who we are
 
 Acme Org builds **Acme Product**, the platform our customers use to run their

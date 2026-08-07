@@ -1,3 +1,11 @@
+---
+type: Reference
+title: piqay
+description: How the org uses piqay (Lens + Curator) to keep the knowledge base alive.
+status: stable
+tags: [tooling, piqay]
+---
+
 # piqay
 
 [piqay](https://github.com/edeustace/piqay) is the tooling suite this org uses to keep

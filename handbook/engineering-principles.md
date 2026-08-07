@@ -1,3 +1,11 @@
+---
+type: Reference
+title: Engineering principles
+description: Guiding principles for how the org writes, builds, and ships.
+status: stable
+tags: [handbook, engineering]
+---
+
 # Engineering principles
 
 Guiding principles, not rules. When two options feel equal, these break the tie.

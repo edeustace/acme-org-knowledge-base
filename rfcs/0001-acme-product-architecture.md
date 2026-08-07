@@ -1,3 +1,13 @@
+---
+type: RFC
+title: Acme Product architecture
+description: High-level architecture for Acme Product — single service, Postgres, config via env.
+status: draft
+tags: [architecture, decisions, rfc]
+generated: { by: human:ede, at: 2026-08-07T19:45:00Z }
+verified: { by: human:ede, at: 2026-08-07T19:45:00Z }
+---
+
 # RFC 0001 — Acme Product architecture
 
 |  |  |
