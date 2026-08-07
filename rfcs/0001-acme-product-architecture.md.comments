@@ -3,7 +3,7 @@
 
 [[comments]]
 id = "a1b2c3d4"
-line = 41
+line = 51
 hash = "2ac82112876910f2"
 context = ["## Decisions"]
 author = "mei"
@@ -14,6 +14,7 @@ Do we need to say how workers get deployed, or is "same repo, same container,
 different entrypoint" enough for the first cut? Decision 1 suggests we deliberately
 don't want a separate worker fleet.
 """
+
 [[comments.replies]]
 author = "ede"
 created = 2026-08-07T11:00:00Z
@@ -21,7 +22,7 @@ text = "Good catch — same container, `--role=worker` entrypoint. I'll add a li
 
 [[comments]]
 id = "e5f6a7b8"
-line = 17
+line = 27
 hash = "f00dbabefacebabe"
 context = ["## Goals"]
 author = "jordan"

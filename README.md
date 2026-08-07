@@ -1,3 +1,9 @@
+---
+type: Index
+title: Acme Org Knowledge Base
+okf_version: "0.2"
+---
+
 # Acme Org Knowledge Base
 
 Welcome to our Knowledge base
