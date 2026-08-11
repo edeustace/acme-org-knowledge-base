@@ -70,3 +70,19 @@ selection_end_line = 27
 selection_end_col = 36
 selection_text = "backed"
 selection_hash = "5465364216501b2d"
+
+[[comments]]
+id = "9c19d4f5-70d1-430f-82c8-dfc814c6ae58"
+line = 2
+hash = "6302a11284136e21"
+context = [ "---" ]
+author = "ed eustace"
+created = "2026-08-11T22:34:57.614Z"
+status = "open"
+text = "this is me adding a test comment to this section of the markdown file"
+selection_start_line = 2
+selection_start_col = 7
+selection_end_line = 2
+selection_end_col = 9
+selection_text = "RFC"
+selection_hash = "ebb25f923d3beaf2"
