@@ -1,0 +1,15 @@
+[[comments]]
+id = "b547ffa8-5c05-4008-95ad-481112c5ba69"
+line = 2
+hash = "1d617939e1fc8675"
+context = [ "---" ]
+author = "ed eustace"
+created = "2026-08-11T22:50:59.097Z"
+status = "open"
+text = "I've just added a test comnment to this to see if it works. to be honest piqay is not a great name, but hey?"
+selection_start_line = 2
+selection_start_col = 0
+selection_end_line = 3
+selection_end_col = 0
+selection_text = "org uses to keep the knowledge base alive. T"
+selection_hash = "33737431545b04be"
