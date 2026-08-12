@@ -34,3 +34,19 @@ selection_hash = "2d0fe0dadba1a49f"
 author = "ed eustace"
 created = "2026-08-12T11:27:48.647Z"
 text = "There is also the curator daemon that minds the knowledge wiki and keeps things in order"
+
+[[comments]]
+id = "14f83928-0067-4a1f-8e0e-ccff29dbd27c"
+line = 31
+hash = "eac6e825582c27b0"
+context = [ "line changes, the comment shows a `stale` badge instead of silently pointing at", "the wrong content." ]
+author = "ed eustace"
+created = "2026-08-12T11:28:02.625Z"
+status = "open"
+text = "here is another comment"
+selection_start_line = 31
+selection_start_col = 4
+selection_end_line = 31
+selection_end_col = 20
+selection_text = "verything is a PR"
+selection_hash = "a6efce7f1020f9ae"
