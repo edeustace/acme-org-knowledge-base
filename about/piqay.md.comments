@@ -29,3 +29,8 @@ selection_end_line = 13
 selection_end_col = 46
 selection_text = "review changes"
 selection_hash = "2d0fe0dadba1a49f"
+
+[[comments.replies]]
+author = "ed eustace"
+created = "2026-08-12T11:27:48.647Z"
+text = "There is also the curator daemon that minds the knowledge wiki and keeps things in order"
