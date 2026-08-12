@@ -13,3 +13,19 @@ selection_end_line = 3
 selection_end_col = 0
 selection_text = "org uses to keep the knowledge base alive. T"
 selection_hash = "33737431545b04be"
+
+[[comments]]
+id = "223f8d28-29be-4f05-9dfa-98b3d18fb29b"
+line = 13
+hash = "c3cd8c94ce0c26f7"
+context = [ "[piqay](https://github.com/edeustace/piqay) is the tooling suite this org uses to keep", "the knowledge base alive. The repository *is* the source of truth; piqay renders it," ]
+author = "ed eustace"
+created = "2026-08-12T11:27:03.428Z"
+status = "open"
+text = "You can add comments and they get stored in a sidecar toml file and pushed to the git repo"
+selection_start_line = 13
+selection_start_col = 33
+selection_end_line = 13
+selection_end_col = 46
+selection_text = "review changes"
+selection_hash = "2d0fe0dadba1a49f"
