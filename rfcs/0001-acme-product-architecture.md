@@ -38,11 +38,14 @@ at our current scale.
 One service, deployed as a container, talking to Postgres, with a job queue for
 background work:
 
+```mermaid
+flowchart LR
+  client([Client]) --> api[acme-api]
+  api --> postgres[(Postgres)]
+  api --> queue[(Job queue)]
+  queue --> workers[workers]
+  workers --> postgres
 ```
-client ──► api ──► postgres
-                └──► queue ──► workers
-```
-
 The API is the only entry point. Workers consume jobs and share the same codebase
 and database, so there is nothing to reconcile between them besides the data itself.
 
