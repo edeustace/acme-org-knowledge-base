@@ -30,6 +30,17 @@ other's way.
   the wrong content.
 - Everything is a PR. Change here, review in Lens, merge to `main`.
 
+## Architecture
+
+```mermaid
+graph LR
+    Repo["Repo (markdown + git)"] --> Lens["Lens (Web UI)"]
+    Repo --> Curator["Curator (daemon)"]
+    Curator --> Repo
+    Lens --> Review["PR Review & Merge"]
+    Review --> Repo
+```
+
 ## See also
 
 - The daily workflow is in `docs/how-we-use-lens.md`.
