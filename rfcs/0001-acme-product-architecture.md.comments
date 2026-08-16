@@ -71,23 +71,34 @@ selection_end_col = 36
 selection_text = "backed"
 selection_hash = "5465364216501b2d"
 
-[[comments.replies]]
-author = "ed eustace"
-created = "2026-08-11T22:52:25.472Z"
-text = "thanks for the input dev user :) "
+[[comments]]
+id = "f1ab77f8-729a-4a73-8ac8-d2e837d8e986"
+line = 21
+hash = "f1035d8bdc6f3a5b"
+context = [ "## Summary" ]
+author = "Dev User"
+created = "2026-08-11T22:49:15.181Z"
+status = "open"
+text = "test"
+selection_start_line = 21
+selection_start_col = 28
+selection_end_line = 21
+selection_end_col = 64
+selection_text = "evel architecture for Acme Product. T"
+selection_hash = "4dc582c4ba1aeea2"
 
 [[comments]]
-id = "9c19d4f5-70d1-430f-82c8-dfc814c6ae58"
-line = 2
-hash = "6302a11284136e21"
-context = [ "---" ]
-author = "ed eustace"
-created = "2026-08-11T22:34:57.614Z"
+id = "7c0f57cb-ac93-4e89-805f-991cf5a3f77b"
+line = 45
+hash = "e3b0c44298fc1c14"
+context = [ "└──► queue ──► workers", "```" ]
+author = "Dev User"
+created = "2026-08-11T22:49:27.265Z"
 status = "open"
-text = "this is me adding a test comment to this section of the markdown file"
-selection_start_line = 2
-selection_start_col = 7
-selection_end_line = 2
-selection_end_col = 9
-selection_text = "RFC"
-selection_hash = "ebb25f923d3beaf2"
+text = "i wonder about this"
+selection_start_line = 45
+selection_start_col = 0
+selection_end_line = 49
+selection_end_col = 0
+selection_text = "services. Two engineers can operate this today; splitting it now buys nothing but operational load.\nPostgres over a document store. The data is relational, and the tooling around Postgres is better than anything else we evaluated.\nConfig via environment; secrets in Secret Manager. No co"
+selection_hash = "a82df10febfdd330"
