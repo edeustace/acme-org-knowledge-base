@@ -1,0 +1,15 @@
+[[comments]]
+id = "7556f3fd-af79-412e-b2ae-5bc9b6468ed3"
+line = 41
+hash = ""
+context = []
+author = "ed eustace"
+created = "2026-08-18T07:20:39.999Z"
+status = "open"
+text = "foo bar"
+selection_start_line = 41
+selection_start_col = 0
+selection_end_line = 33
+selection_end_col = 32
+selection_text = "us to proposed, and post the link.\nCollect review as inline comm"
+selection_hash = "d520c728048e986f"
