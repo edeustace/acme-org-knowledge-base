@@ -1,0 +1,15 @@
+[[comments]]
+id = "4836af72-4dfa-44e9-b05d-27b054318427"
+line = 19
+hash = "3c97cb3ad0b32463"
+context = [ "| Team | Area |", "|---|---|" ]
+author = "Tom Eustace"
+created = "2026-08-18T08:40:11.356Z"
+status = "open"
+text = "Test comment...."
+selection_start_line = 19
+selection_start_col = 18
+selection_end_line = 19
+selection_end_col = 51
+selection_text = "Core services, infrastructure, SRE"
+selection_hash = "de0e98ee9b5b1eda"
