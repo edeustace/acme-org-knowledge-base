@@ -13,3 +13,19 @@ selection_end_line = 19
 selection_end_col = 51
 selection_text = "Core services, infrastructure, SRE"
 selection_hash = "de0e98ee9b5b1eda"
+
+[[comments]]
+id = "54be12e2-ec30-4b3a-969b-217a9a6f73ff"
+line = 11
+hash = "f5fe8ce550ec30fa"
+context = [ "# Acme Org — who we are" ]
+author = "ed eustace"
+created = "2026-09-24T10:50:37.787Z"
+status = "open"
+text = "This is a test comment"
+selection_start_line = 11
+selection_start_col = 52
+selection_end_line = 11
+selection_end_col = 60
+selection_text = "customers"
+selection_hash = "21eb2153dd1483cd"
