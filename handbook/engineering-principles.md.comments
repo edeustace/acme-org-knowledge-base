@@ -1,0 +1,15 @@
+[[comments]]
+id = "2ffa4205-a285-47ea-b73c-81bdb21989de"
+line = 4
+hash = "e1b0f979ec3a2c28"
+context = [ "type: Reference", "title: Engineering principles" ]
+author = "ed eustace"
+created = "2026-09-24T10:51:18.640Z"
+status = "open"
+text = "I like this"
+selection_start_line = 4
+selection_start_col = 0
+selection_end_line = 4
+selection_end_col = 0
+selection_text = "Write things down. T"
+selection_hash = "67ff2e72c6e55e98"
